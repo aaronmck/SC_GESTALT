@@ -1,3 +1,8 @@
+# This respository is a freeze of the code to generate the Raj et al. paper
+
+It does not contain all aspects of our lineage tracing barcode pipeline. A more up-to-date repository is here:
+https://github.com/mckennalab/SingleCellLineage
+
 # Single-cell GESTALT pipeline
 
 This Docker image processes GESTALT barcode sequencing data. Reads are merged by UMI, aligned to the reference file, and aggregated into plots describing the overall editing, as well as trees describing the relative lineage relationships within your data. 
